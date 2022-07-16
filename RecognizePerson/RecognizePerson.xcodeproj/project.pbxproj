@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA842BF9287F86E700AEAD6D /* RecognizePersonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA842BF8287F86E700AEAD6D /* RecognizePersonApp.swift */; };
+		EA842BFB287F86E700AEAD6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA842BFA287F86E700AEAD6D /* ContentView.swift */; };
+		EA842BFD287F86EA00AEAD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA842BFC287F86EA00AEAD6D /* Assets.xcassets */; };
+		EA842C00287F86EA00AEAD6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA842BFF287F86EA00AEAD6D /* Preview Assets.xcassets */; };
+		EA842C07287F890100AEAD6D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA842C06287F890100AEAD6D /* ImagePicker.swift */; };
+		EA842C0A287F9A7400AEAD6D /* RecognizePerson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA842C08287F9A7400AEAD6D /* RecognizePerson.xcdatamodeld */; };
+		EA842C0D287F9B6900AEAD6D /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA842C0B287F9B6900AEAD6D /* Person+CoreDataClass.swift */; };
+		EA842C0E287F9B6900AEAD6D /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA842C0C287F9B6900AEAD6D /* Person+CoreDataProperties.swift */; };
+		EA842C10287F9CA900AEAD6D /* UIImageTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA842C0F287F9CA900AEAD6D /* UIImageTransformer.swift */; };
+		EA842C12287FABC200AEAD6D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA842C11287FABC200AEAD6D /* CoreDataManager.swift */; };
+		EA842C14287FB35600AEAD6D /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA842C13287FB35600AEAD6D /* PersonViewModel.swift */; };
+		EA842C16287FBAEF00AEAD6D /* AddPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA842C15287FBAEE00AEAD6D /* AddPerson.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA842BF5287F86E700AEAD6D /* RecognizePerson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecognizePerson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA842BF8287F86E700AEAD6D /* RecognizePersonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizePersonApp.swift; sourceTree = "<group>"; };
+		EA842BFA287F86E700AEAD6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA842BFC287F86EA00AEAD6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA842BFF287F86EA00AEAD6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA842C06287F890100AEAD6D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		EA842C09287F9A7400AEAD6D /* RecognizePerson.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecognizePerson.xcdatamodel; sourceTree = "<group>"; };
+		EA842C0B287F9B6900AEAD6D /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		EA842C0C287F9B6900AEAD6D /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		EA842C0F287F9CA900AEAD6D /* UIImageTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTransformer.swift; sourceTree = "<group>"; };
+		EA842C11287FABC200AEAD6D /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		EA842C13287FB35600AEAD6D /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		EA842C15287FBAEE00AEAD6D /* AddPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPerson.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA842BF2287F86E700AEAD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA842BEC287F86E700AEAD6D = {
+			isa = PBXGroup;
+			children = (
+				EA842BF7287F86E700AEAD6D /* RecognizePerson */,
+				EA842BF6287F86E700AEAD6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA842BF6287F86E700AEAD6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA842BF5287F86E700AEAD6D /* RecognizePerson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA842BF7287F86E700AEAD6D /* RecognizePerson */ = {
+			isa = PBXGroup;
+			children = (
+				EA842BF8287F86E700AEAD6D /* RecognizePersonApp.swift */,
+				EA842BFA287F86E700AEAD6D /* ContentView.swift */,
+				EA842C15287FBAEE00AEAD6D /* AddPerson.swift */,
+				EA842C13287FB35600AEAD6D /* PersonViewModel.swift */,
+				EA842C06287F890100AEAD6D /* ImagePicker.swift */,
+				EA842C0F287F9CA900AEAD6D /* UIImageTransformer.swift */,
+				EA842C11287FABC200AEAD6D /* CoreDataManager.swift */,
+				EA842C0C287F9B6900AEAD6D /* Person+CoreDataProperties.swift */,
+				EA842C0B287F9B6900AEAD6D /* Person+CoreDataClass.swift */,
+				EA842C08287F9A7400AEAD6D /* RecognizePerson.xcdatamodeld */,
+				EA842BFC287F86EA00AEAD6D /* Assets.xcassets */,
+				EA842BFE287F86EA00AEAD6D /* Preview Content */,
+			);
+			path = RecognizePerson;
+			sourceTree = "<group>";
+		};
+		EA842BFE287F86EA00AEAD6D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA842BFF287F86EA00AEAD6D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA842BF4287F86E700AEAD6D /* RecognizePerson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA842C03287F86EA00AEAD6D /* Build configuration list for PBXNativeTarget "RecognizePerson" */;
+			buildPhases = (
+				EA842BF1287F86E700AEAD6D /* Sources */,
+				EA842BF2287F86E700AEAD6D /* Frameworks */,
+				EA842BF3287F86E700AEAD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecognizePerson;
+			productName = RecognizePerson;
+			productReference = EA842BF5287F86E700AEAD6D /* RecognizePerson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA842BED287F86E700AEAD6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EA842BF4287F86E700AEAD6D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EA842BF0287F86E700AEAD6D /* Build configuration list for PBXProject "RecognizePerson" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA842BEC287F86E700AEAD6D;
+			productRefGroup = EA842BF6287F86E700AEAD6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA842BF4287F86E700AEAD6D /* RecognizePerson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA842BF3287F86E700AEAD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA842C00287F86EA00AEAD6D /* Preview Assets.xcassets in Resources */,
+				EA842BFD287F86EA00AEAD6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA842BF1287F86E700AEAD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA842C16287FBAEF00AEAD6D /* AddPerson.swift in Sources */,
+				EA842C07287F890100AEAD6D /* ImagePicker.swift in Sources */,
+				EA842C0A287F9A7400AEAD6D /* RecognizePerson.xcdatamodeld in Sources */,
+				EA842C0E287F9B6900AEAD6D /* Person+CoreDataProperties.swift in Sources */,
+				EA842C14287FB35600AEAD6D /* PersonViewModel.swift in Sources */,
+				EA842C0D287F9B6900AEAD6D /* Person+CoreDataClass.swift in Sources */,
+				EA842BFB287F86E700AEAD6D /* ContentView.swift in Sources */,
+				EA842BF9287F86E700AEAD6D /* RecognizePersonApp.swift in Sources */,
+				EA842C12287FABC200AEAD6D /* CoreDataManager.swift in Sources */,
+				EA842C10287F9CA900AEAD6D /* UIImageTransformer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA842C01287F86EA00AEAD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA842C02287F86EA00AEAD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA842C04287F86EA00AEAD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecognizePerson/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q4G5PRJJ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to save photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.manoellealdeveloper.RecognizePerson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA842C05287F86EA00AEAD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecognizePerson/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q4G5PRJJ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to save photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.manoellealdeveloper.RecognizePerson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA842BF0287F86E700AEAD6D /* Build configuration list for PBXProject "RecognizePerson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA842C01287F86EA00AEAD6D /* Debug */,
+				EA842C02287F86EA00AEAD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA842C03287F86EA00AEAD6D /* Build configuration list for PBXNativeTarget "RecognizePerson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA842C04287F86EA00AEAD6D /* Debug */,
+				EA842C05287F86EA00AEAD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA842C08287F9A7400AEAD6D /* RecognizePerson.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA842C09287F9A7400AEAD6D /* RecognizePerson.xcdatamodel */,
+			);
+			currentVersion = EA842C09287F9A7400AEAD6D /* RecognizePerson.xcdatamodel */;
+			path = RecognizePerson.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA842BED287F86E700AEAD6D /* Project object */;
+}
